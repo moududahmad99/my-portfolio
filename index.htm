@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portflio</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- Css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <img src="assets/DP.jpg" />
+        <h3 class="name">sabbir ahmad moudud</h3>
+        <p class="post">front end developer</p>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <h3>HI THERE !</h3>
+      <h1>I'm <span>sabbir ahmad moudud</span></h1>
+      <p>
+        I'm a programmer with a strong creative and analytical skills. I'm a programmer with a strong creative and analytical skills.programmer with a strong creative and analytical skills. also with a genuine interest and curiosity on software industry. I enjoy working collaboratively but can also run with projects on my own.
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
+      <div class="row">
+        <div class="info">
+          <h3><span>name : </span> sabbir ahmad moudud</h3>
+          <h3><span>age : </span> 20</h3>
+          <h3><span>qualification : </span> BMS</h3>
+          <h3><span>post : </span> front end developer</h3>
+          <h3><span>language : </span> Bangla | English</h3>
+          <a href="#"
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
+        </div>
+
+        <div class="counter">
+          <div class="box">
+            <span>2+</span>
+            <h3>years of experience</h3>
+          </div>
+
+          <div class="box">
+            <span>25+</span>
+            <h3>project completed</h3>
+          </div>
+
+          <div class="box">
+            <span>10+</span>
+            <h3>happy clients</h3>
+          </div>
+
+          <div class="box">
+            <span>5+</span>
+            <h3>awards won</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">my <span>portfolio</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="assets/p1.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p2.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p3.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p4.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p5.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p6.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p6.png" />
+        </div>
+
+        <div class="box">
+          <img src="assets/p6.png" />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
+          <div class="info">
+            <h3><i class="fas fa-envelope"></i> sabbirahmedmoudud@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i> 01619-863686</h3>
+            <h3>
+              <i class="fas fa-map-marker-alt "></i> 
+               Gulshan 2, Dhaka, Bangladesh
+            </h3>
+          </div>
+        </div>
+
+        <form action="">
+          <input type="text" placeholder="name" class="box" />
+          <input type="email" placeholder="email" class="box" />
+          <input type="text" placeholder="project" class="box" />
+          <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+          <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- JS file link -->
+    <script src="app.js"></script>
+  </body>
+</html>
